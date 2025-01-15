@@ -1,0 +1,33 @@
+* {
+    font-family: "Playfair", serif;
+}
+
+#logo {
+    font-weight: 90;
+    font-size:1.2 rem;
+    border: 2px solid maroon;
+    display: inline;
+    padding: 5px;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a {
+    color: maroon;
+}
+/*main*/ 
+.main-img {
+    width: 20%;
+}
+body {
+    background-color: lightyellow;
+}
+/* footer */
+footer {
+    margin-top: 2rem;
+   border-top: 1px solid maroon; 
+}
