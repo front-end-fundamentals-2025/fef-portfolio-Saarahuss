@@ -45,6 +45,41 @@ a{
         margin-bottom: 1rem;
     }
 }
+/*ANIMATION*/
+div{
+    animation-name: zoom-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+}
+
+span{
+    animation-duration: 3s;
+    animation-name: color-change;
+    animation-timing-function: ease-in-out;
+}
+@keyframes zoom-in {
+     80%{
+        transform: scale(1.5);
+    }
+   
+}
+
+@keyframes color-change{
+    0%{
+        color: burlywood;
+    }
+    20%{
+        color: rgb(165, 140, 102);
+    }
+    90%{
+        color: rgb(43, 40, 40);
+    }
+    100%{
+        color: rgb(99, 96, 96);
+    }
+}
+
 
 
 /*main*/ 
@@ -68,9 +103,10 @@ body{
 }
 
 .me{
-    width: 400px;
-    height: 500px;
+    width: 30%;
+    height: 40%;
     margin-bottom: 50px;
+    margin-left: 600px;
 }
 .intro{
     font-size: x-large;
