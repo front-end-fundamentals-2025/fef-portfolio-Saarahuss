@@ -1,9 +1,11 @@
 
-const darkMode = document.getElementById("darkMode")
-const bodyElement = document.querySelector("body")
+const darkModeButton = document.getElementById("darkMode");
+const lightModeButton = document.getElementById("lightMode");
+const bodyElement = document.querySelector("body");
 
-darkMode.addEventListener("click", function(event){
-    console.log("button clicket!")
-    bodyElement.style.backgroundColor = "#000000"
+darkModeButton.addEventListener("click", function(event){
+    bodyElement.style.backgroundColor = "#000000";
 })
-
+lightModeButton.addEventListener("click", function(event){
+    bodyElement.style.backgroundColor = "#e7e0cc";
+})
